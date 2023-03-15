@@ -1,14 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3f4ec63-9cf8-4b71-bceb-493d4c9f95d4" name="Changes" comment="" />
+    <list default="true" id="a3f4ec63-9cf8-4b71-bceb-493d4c9f95d4" name="Changes" comment="Add classes (and check if commit signing works now)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/radialbog9/openshowcue/StartType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/radialbog9/openshowcue/audio/AudioHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/radialbog9/openshowcue/audio/AudioTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/radialbog9/openshowcue/audio/genericplayer/AudioData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/radialbog9/openshowcue/audio/genericplayer/AudioPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/radialbog9/openshowcue/audio/genericplayer/PlayClipThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/radialbog9/openshowcue/audio/genericplayer/PlayStreamThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/radialbog9/openshowcue/audio/genericplayer/PlayThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/radialbog9/openshowcue/cue/Cue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenShowCue-API/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenShowCue-API/src/main/java/uk/radialbog9/openshowcue/api/Production.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/radialbog9/openshowcue/Production.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenShowCue-API/src/main/java/uk/radialbog9/openshowcue/api/cue/Cue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenShowCue-API/src/main/java/uk/radialbog9/openshowcue/api/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/radialbog9/openshowcue/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="TheJoeCoder &lt;joe@radialbog9.uk&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="506025fe-6f0a-4ab2-9545-aa8be531fe57" />
+        <option name="url" value="git@github.com:Radialbog9/OpenShowCue.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -18,16 +70,24 @@
     </option>
   </component>
   <component name="ProjectId" id="2N3xWTI6x1wGKScWq8IZGhmUhBx" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -73,7 +133,43 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678906601457</updated>
+      <workItem from="1678906602701" duration="6255000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1678906825078</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678906825078</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add classes (and check if commit signing works now)">
+      <created>1678906962532</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678906962532</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value="Add classes (and check if commit signing works now)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add classes (and check if commit signing works now)" />
   </component>
 </project>
