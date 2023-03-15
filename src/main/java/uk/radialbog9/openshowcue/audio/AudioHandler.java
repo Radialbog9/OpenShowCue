@@ -5,10 +5,10 @@ import uk.radialbog9.openshowcue.audio.genericplayer.AudioPlayer;
 import java.io.File;
 
 public class AudioHandler {
-    public AudioHandler() {
-    }
+    public static AudioHandler instance;
+
     public void playFile(File file) {
-        AudioPlayer.loadStream("test", file.getAbsolutePath());
-        AudioPlayer.play("test", false);
+        AudioPlayer.loadStream(file.getName(), file.getAbsolutePath());
+        AudioPlayer.play(file.getName(), false);
     }
 }
