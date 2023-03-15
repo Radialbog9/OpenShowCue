@@ -8,7 +8,7 @@ import java.util.List;
 public interface Cue {
     boolean enabled = false;
     StartType startType = StartType.MANUAL;
-    List<Cue> subQueues = new ArrayList<>();
+    List<Cue> subCues = new ArrayList<>();
     void go();
     void pause();
     void resume();
