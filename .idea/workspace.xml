@@ -4,23 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3f4ec63-9cf8-4b71-bceb-493d4c9f95d4" name="Changes" comment="Add classes (and check if commit signing works now)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/radialbog9/openshowcue/StartType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/radialbog9/openshowcue/audio/AudioHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/radialbog9/openshowcue/audio/AudioTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/radialbog9/openshowcue/audio/genericplayer/AudioData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/radialbog9/openshowcue/audio/genericplayer/AudioPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/radialbog9/openshowcue/audio/genericplayer/PlayClipThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/radialbog9/openshowcue/audio/genericplayer/PlayStreamThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/radialbog9/openshowcue/audio/genericplayer/PlayThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/radialbog9/openshowcue/cue/Cue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a3f4ec63-9cf8-4b71-bceb-493d4c9f95d4" name="Changes" comment="Add sound cue">
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/radialbog9/openshowcue/audio/AudioFileRef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenShowCue-API/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenShowCue-API/src/main/java/uk/radialbog9/openshowcue/api/Production.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/radialbog9/openshowcue/Production.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenShowCue-API/src/main/java/uk/radialbog9/openshowcue/api/cue/Cue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenShowCue-API/src/main/java/uk/radialbog9/openshowcue/api/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/radialbog9/openshowcue/package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/radialbog9/openshowcue/audio/AudioHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/radialbog9/openshowcue/audio/AudioHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/radialbog9/openshowcue/audio/AudioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/radialbog9/openshowcue/audio/AudioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/radialbog9/openshowcue/cue/types/SoundCue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/radialbog9/openshowcue/cue/types/SoundCue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,8 +70,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
     "node.js.detected.package.eslint": "true",
@@ -133,7 +125,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678906601457</updated>
-      <workItem from="1678906602701" duration="6255000" />
+      <workItem from="1678906602701" duration="7605000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1678906825078</created>
@@ -149,7 +141,35 @@
       <option name="project" value="LOCAL" />
       <updated>1678906962532</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Move everything and add audio (it works!)">
+      <created>1678916075569</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678916075569</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Typo">
+      <created>1678916297812</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678916297812</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fix audio handler">
+      <created>1678916313846</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678916313846</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add sound cue">
+      <created>1678916324111</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678916324111</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +190,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Add classes (and check if commit signing works now)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add classes (and check if commit signing works now)" />
+    <MESSAGE value="Move everything and add audio (it works!)" />
+    <MESSAGE value="Typo" />
+    <MESSAGE value="Fix audio handler" />
+    <MESSAGE value="Add sound cue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add sound cue" />
   </component>
 </project>
